@@ -9,8 +9,8 @@ typedef struct Pessoa
 
 void imprimePessoa(struct Pessoa p)
 {
-    prinft ("Nome: %s \n", p.nome);
-    prinft ("Idade: %s \n", p.idade);
+    printf("Nome: %s \n", p.nome);
+    printf("Idade: %s \n", p.idade);
 }
 
 int main()
